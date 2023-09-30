@@ -1,3 +1,9 @@
+### Description ###
+This is a terraform project to create a VPC with 4 subnets, 2 public and 2 private, and EC2 in one publicsubnet and start nginx server.
+
+# To run this project
+You need to have terraform installed on your machine.
+You need to have an AWS account and create an IAM user with programmatic access and necessary permissions.
 ### initialize
 
     terraform init
