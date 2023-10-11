@@ -22,8 +22,8 @@ variable "env_prefix" {
 }
 variable "my_ip" {}
 variable "instance_type" {
-  type    = string
-  default = "t2.micro"
+  type    = list(string)
+  default = ["t2.micro", "t2.small"]
 }
 variable "public_key_path" {
   type    = string
