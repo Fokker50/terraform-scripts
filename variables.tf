@@ -20,7 +20,6 @@ variable "env_prefix" {
   type    = string
   default = "dev"
 }
-variable "my_ip" {}
 variable "instance_type" {
   type    = list(string)
   default = ["t2.micro", "t2.small"]
